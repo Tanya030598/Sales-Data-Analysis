@@ -31,6 +31,98 @@ Date       | Region | Product | Sales Rep   | Quantity Sold | Unit Price | Total
 2024-01-29 | North  | Widget B | Bob White   | 18            | 30.00      | 540.00      | 10%          | 486.00    | 01
 2024-01-30 | South  | Widget A | John Doe    | 22            | 25.00      | 550.00      | 0%           | 550.00    | 01
 
+-- Basic Level Questions --
+
+Calculate Total Sales per Order:
+
+Formula: =E2*F2 (Apply for all rows in the Total Sales column)
+Calculate Profit per Order:
+
+Formula: =H2 * G2 (Profit = Total Sales * Discount percentage)
+Find the Average Sales Value per Order:
+
+Formula: =AVERAGE(H2:H31)
+Identify the Order with the Maximum Profit:
+
+Formula: =MAX(I2:I31)
+To find the Order ID: =INDEX(A2:A31, MATCH(MAX(I2:I31), I2:I31, 0))
+Count the Number of Orders from Each Region:
+
+Formula for "North": =COUNTIF(C2:C31, "North")
+Replace "North" with other regions as needed.
+Intermediate Level Questions with Formulas
+Calculate the Total Sales for Each Product:
+
+Formula: =SUMIF(B2:B31, "Widget A", H2:H31) (Apply for each product name)
+Determine the Salesperson with the Highest Total Sales:
+
+Formula: =SUMIF(D2:D31, "Alice", H2:H31) (Apply for each salesperson and then compare)
+Find the Average Discount Offered:
+
+Formula: =AVERAGE(G2:G31)
+List the Orders with a Profit Greater Than 100:
+
+Formula: =IF(I2>100, A2, "") (This formula can be dragged across rows to list Order IDs with profit > 100)
+Calculate the Total Sales for the "North" Region:
+
+Formula: =SUMIF(C2:C31, "North", H2:H31)
+Advanced Level Questions with Formulas
+Create a Pivot Table to Summarize Total Sales by Region and Product:
+
+Insert a Pivot Table, with Region and Product in Rows, and Total Sales in Values (set to SUM).
+Visualize Sales by Region Using a Bar Chart:
+
+Select the data for Region and Total Sales, then insert a bar chart using Excel's chart features.
+Find the Top 5 Orders with the Highest Profit:
+
+Formula to find the 5th largest profit: =LARGE(I2:I31, 5) (Change the 5 to 1, 2, 3 for the top profits)
+Analyze Sales Trend by Month:
+
+Extract the month from the Order Date column using =TEXT(H2, "mmmm") in a new column and create a Pivot Table to show monthly sales.
+Calculate the Profit Margin for Each Product:
+
+Formula: =I2/H2 (Profit Margin = Profit / Total Sales)
+
+# Sales Data Analysis Project
+
+This project is designed to help you practice sales data analysis using Excel. The dataset contains information about product orders, salespersons, regions, and various metrics like quantity, price, sales, profit, and discounts.
+
+## Basic Questions
+1. **Calculate Total Sales per Order:**
+   - Formula: `=E2*F2` (Apply for all rows in the `Total Sales` column)
+
+2. **Calculate Profit per Order:**
+   - Formula: `=H2 * G2`
+
+3. **Find the Average Sales Value per Order:**
+   - Formula: `=AVERAGE(H2:H31)`
+
+4. **Identify the Order with the Maximum Profit:**
+   - Formula: `=MAX(I2:I31)`
+   - Order ID: `=INDEX(A2:A31, MATCH(MAX(I2:I31), I2:I31, 0))`
+
+5. **Count the Number of Orders from Each Region:**
+   - Formula for "North": `=COUNTIF(C2:C31, "North")`
+
+## Intermediate Questions
+1. **Calculate the Total Sales for Each Product:**
+   - Formula: `=SUMIF(B2:B31, "Widget A", H2:H31)`
+
+2. **Determine the Salesperson with the Highest Total Sales:**
+   - Formula: `=SUMIF(D2:D31, "Alice", H2:H31)`
+
+3. **Find the Average Discount Offered:**
+   - Formula: `=AVERAGE(G2:G31)`
+
+4. **List the Orders with a Profit Greater Than 100:**
+   - Formula: `=IF(I2>100, A2, "")`
+
+5. **Calculate the Total Sales for the "North" Region:**
+   - Formula: `=SUMIF(C2:C31, "North", H2:H31)`
+
+
+
+
 
 
 
