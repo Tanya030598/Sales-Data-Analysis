@@ -1,1 +1,36 @@
-Tanya
+Date       | Region | Product | Sales Rep   | Quantity Sold | Unit Price | Total Sales | Discount (%) | Net Sales | Month
+-----------|--------|---------|-------------|---------------|------------|-------------|--------------|-----------|-------
+2024-01-01 | North  | Widget A | John Doe    | 10            | 25.00      | 250.00      | 10%          | 225.00    | 01
+2024-01-02 | South  | Widget B | Jane Smith  | 15            | 30.00      | 450.00      | 5%           | 427.50    | 01
+2024-01-03 | East   | Widget A | John Doe    | 8             | 25.00      | 200.00      | 15%          | 170.00    | 01
+2024-01-04 | West   | Widget C | Alice Green | 20            | 35.00      | 700.00      | 0%           | 700.00    | 01
+2024-01-05 | North  | Widget B | Bob White   | 12            | 30.00      | 360.00      | 10%          | 324.00    | 01
+2024-01-06 | South  | Widget A | John Doe    | 18            | 25.00      | 450.00      | 10%          | 405.00    | 01
+2024-01-07 | East   | Widget B | Jane Smith  | 25            | 30.00      | 750.00      | 5%           | 712.50    | 01
+2024-01-08 | West   | Widget A | Alice Green | 5             | 25.00      | 125.00      | 20%          | 100.00    | 01
+2024-01-09 | North  | Widget C | Bob White   | 8             | 35.00      | 280.00      | 0%           | 280.00    | 01
+2024-01-10 | South  | Widget A | John Doe    | 30            | 25.00      | 750.00      | 5%           | 712.50    | 01
+2024-01-11 | East   | Widget C | Jane Smith  | 22            | 35.00      | 770.00      | 0%           | 770.00    | 01
+2024-01-12 | West   | Widget B | Alice Green | 14            | 30.00      | 420.00      | 10%          | 378.00    | 01
+2024-01-13 | North  | Widget A | Bob White   | 16            | 25.00      | 400.00      | 5%           | 380.00    | 01
+2024-01-14 | South  | Widget C | John Doe    | 7             | 35.00      | 245.00      | 15%          | 208.25    | 01
+2024-01-15 | East   | Widget A | Jane Smith  | 9             | 25.00      | 225.00      | 10%          | 202.50    | 01
+2024-01-16 | West   | Widget C | Alice Green | 12            | 35.00      | 420.00      | 0%           | 420.00    | 01
+2024-01-17 | North  | Widget B | Bob White   | 10            | 30.00      | 300.00      | 10%          | 270.00    | 01
+2024-01-18 | South  | Widget A | John Doe    | 13            | 25.00      | 325.00      | 5%           | 308.75    | 01
+2024-01-19 | East   | Widget C | Jane Smith  | 18            | 35.00      | 630.00      | 0%           | 630.00    | 01
+2024-01-20 | West   | Widget A | Alice Green | 5             | 25.00      | 125.00      | 20%          | 100.00    | 01
+2024-01-21 | North  | Widget C | Bob White   | 14            | 35.00      | 490.00      | 10%          | 441.00    | 01
+2024-01-22 | South  | Widget B | John Doe    | 18            | 30.00      | 540.00      | 5%           | 513.00    | 01
+2024-01-23 | East   | Widget A | Jane Smith  | 10            | 25.00      | 250.00      | 10%          | 225.00    | 01
+2024-01-24 | West   | Widget C | Alice Green | 15            | 35.00      | 525.00      | 0%           | 525.00    | 01
+2024-01-25 | North  | Widget A | Bob White   | 25            | 25.00      | 625.00      | 5%           | 593.75    | 01
+2024-01-26 | South  | Widget C | John Doe    | 10            | 35.00      | 350.00      | 15%          | 297.50    | 01
+2024-01-27 | East   | Widget B | Jane Smith  | 8             | 30.00      | 240.00      | 10%          | 216.00    | 01
+2024-01-28 | West   | Widget A | Alice Green | 20            | 25.00      | 500.00      | 5%           | 475.00    | 01
+2024-01-29 | North  | Widget B | Bob White   | 18            | 30.00      | 540.00      | 10%          | 486.00    | 01
+2024-01-30 | South  | Widget A | John Doe    | 22            | 25.00      | 550.00      | 0%           | 550.00    | 01
+
+
+
+
