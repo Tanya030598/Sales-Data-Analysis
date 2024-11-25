@@ -36,12 +36,16 @@ Date    | Region | Product  | Sales Person | Quantity Sold | Unit Price | Total 
 
 Q-1- Calculate Total Sales per Order.
 Ans-- =E2*F2 -- (Apply for all rows in the Total Sales column) --
+
 Q-2- Calculate Profit per Order.
 Ans-- =H2*G2 -- (Profit = Total Sales * Discount percentage) --
+
 Q-3- Find the Average Sales Value per Order.
 Ans-- =AVERAGE(J2:J31)
+
 Q-4- Identify the Order with the Maximum Profit.
 Ans-- =MAX(J2:J31)
+
 Q-5- Count the Number of Orders from Each Region:
 Ans-- =COUNTIF(B2:B31, "North") -- Formula for "North" -- (Replace "North" with other regions as needed) --
 
@@ -49,12 +53,16 @@ Ans-- =COUNTIF(B2:B31, "North") -- Formula for "North" -- (Replace "North" with 
 
 Q-1- Calculate the Total Sales for Each Product:
 Ans-- =SUMIF(C2:C31, "Widget A", J2:J31) -- (Apply for each product name) --
+
 Q-2- Determine the Salesperson with the Highest Total Sales:
 Ans-- =SUMIF(D2:D31, "Alice", H2:H31) (Apply for each salesperson and then compare)
+
 Q-3- Find the Average Discount Offered:
 Ans-- =AVERAGE(I2:I31)
+
 Q-4- List the Orders with a Profit Greater Than 100:
 Ans-- Formula: =IF(I2>100, A2, "Profit is less than 100") (This formula can be dragged across rows to list Order IDs with profit > 100)
+
 Q-5- Calculate the Total Sales for the "North" Region:
 Ans-- =SUMIF(B2:B31, "North", J2:J31)
 
@@ -62,13 +70,12 @@ Ans-- =SUMIF(B2:B31, "North", J2:J31)
 
 Q-1- Create a Pivot Table to Summarize Total Sales by Region and Product:
 Ans-- Insert a Pivot Table, with Region in Rows and Product in Columns, and Total Sales in Values (set to SUM).
+
 Q-2- Visualize Sales by Region Using a Bar Chart:
 Ans-- Select the data for Region and Total Sales, then insert a bar chart using Excel's chart features.
+
 Q-3- Find the Top 5 Orders with the Highest Profit:
 Ans-- Formula to find the 5th largest profit: =LARGE(I2:I31, 5) (Change the 5 to 1, 2, 3 for the top profits)
+
 Q-4- Analyze Sales Trend by Month.     
 Ans-- Extract the month from the Order Date column using =TEXT(H2, "mmmm") in a new column and create a Pivot Table to show monthly sales.
-Q-5- Calculate the Profit Margin for Each Product:
-Ans-- Formula: =I2/G2 (Profit Margin = Profit / Total Sales)
-
-
