@@ -8,4 +8,4 @@ TECHNICAL SKILLS: In this project we use aggregate formulas, create a pivot tabl
 
 RESULT: This project helps to understand sales by using tools like Pivot Tables and charts to show trends and important numbers. The result is an interactive dashboard that shows how products are performing, sales patterns, and market trends.
 
-LINK: 
+LINK: https://github.com/Tanya030598/Sales-Data-Analysis/tree/main
