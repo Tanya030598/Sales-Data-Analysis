@@ -1,4 +1,4 @@
-Date    | Region | Product  | Sales Person | Quantity Sold | Unit Price | Total Sales | Discount (%) | Profit | Net Sales | Month
+   Date    | Region| Product  | Sales Person | Quantity Sold | Unit Price | Total Sales | Discount (%)  | Profit | Net Sales | Month
 01/01/2024 | North | Widget A | John Doe     | 10            | 25         | 250         | 10%           | 25     | 225       | 1
 02/01/2024 | South | Widget B | Jane Smith   | 15            | 30         | 450         | 5%            | 22.5   | 427.5     | 1
 03/01/2024 | East  | Widget A | John Doe     | 8             | 25         | 200         | 15%           | 30     | 170       | 1
